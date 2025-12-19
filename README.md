@@ -39,7 +39,7 @@ This section shares my creative and recreational **hobbies**, which often inspir
 I'd love to connect! The **Contact Me** page provides all the ways to reach out:
 
 * **Email:** Jeremy60572@gmail.com
-* **LinkedIn:** [\[\\[Your LinkedIn Link\\]\]https://www.linkedin.com/in/jeremy-lin1/](https://www.linkedin.com/in/jeremy-lin1/)
+* **LinkedIn:** [\[Your LinkedIn Link\]](https://www.linkedin.com/in/jeremy-lin1/)
 * **GitHub:** [\[Your GitHub Profile Link\]](https://github.com/Je-re-me/)
 
 ---
