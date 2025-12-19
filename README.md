@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# 👋 Welcome to Jeremy Lin's Personal Hub!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository hosts the source code and files for my personal website, showcasing my professional journey, creative projects, and personal interests.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 👤 About
 
-### `npm start`
+Get to know the person behind the code (and the hobbies)! This section covers:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* **Skills:** [e.g., Java, JavaScript, React]
+* **Experience:** My professional roles and accomplishments.
+* **Mission:** What drives me in my work and personal life.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Projects
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A deep dive into the work I'm most proud of. Each **project** description will include:
 
-### `npm run build`
+* **Technology Stack:** The tools and languages used.
+* **Problem Solved:** The core challenge the project addresses.
+* **Code Link:** Direct links to view the source code.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🎨 Hobbies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This section shares my creative and recreational **hobbies**, which often inspire my professional work:
 
-### `npm run eject`
+* **[Hobby 1]:** Badminton - Capturing landscapes and cityscapes.
+* **[Hobby 2]:** Video Games - Experimenting with international cuisine.
+* **[Hobby 3]:** Drawing - Focusing on non-fiction and science fiction.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📬 Contact Me
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+I'd love to connect! The **Contact Me** page provides all the ways to reach out:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* **Email:** Jeremy60572@gmail.com
+* **LinkedIn:** [\[Your LinkedIn Link\]]https://www.linkedin.com/in/jeremy-lin1/
+* **GitHub:** [\[Your GitHub Profile Link\]](https://github.com/Je-re-me/)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**This site is built using:** React
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**To view the website, visit:** [Your Website URL] (currently unfinished)
