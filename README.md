@@ -1,4 +1,4 @@
-# 👋 Welcome to Jeremy Lin's Personal Hub!
+# 👋 Welcome to Jeremy Lin's Personal Website!
 
 This repository hosts the source code and files for my personal website, showcasing my professional journey, creative projects, and personal interests.
 
@@ -28,9 +28,9 @@ A deep dive into the work I'm most proud of. Each **project** description will i
 
 This section shares my creative and recreational **hobbies**, which often inspire my professional work:
 
-* **[Hobby 1]:** Badminton - Participating in provincial tournaments and coaching.
-* **[Hobby 2]:** Video Games - Relaxing and having a good time with friends.
-* **[Hobby 3]:** Drawing - Pencil drawings and digital art.
+* **Badminton** - Participating in provincial tournaments and coaching on a school team.
+* **Video Games** - Relaxing and having a good time with friends.
+* **Drawing** - I love to make pencil drawings and digital art.
 
 ---
 
