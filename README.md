@@ -28,9 +28,9 @@ A deep dive into the work I'm most proud of. Each **project** description will i
 
 This section shares my creative and recreational **hobbies**, which often inspire my professional work:
 
-* **Badminton** - Participating in provincial tournaments and coaching on a school team.
-* **Video Games** - Relaxing and having a good time with friends.
-* **Drawing** - I love to make pencil drawings and digital art.
+* **Badminton** - I participate in provincial tournaments and coaching on a school team.
+* **Video Games** - A good way to relax and have a good time with friends.
+* **Drawing** - In my spare time, I love to make pencil drawings and digital art.
 
 ---
 
