@@ -4,13 +4,13 @@ This repository hosts the source code and files for my personal website, showcas
 
 ---
 
-## 👤 About
+## 📬 Contact Me
 
-Get to know the person behind the code (and the hobbies)! This section covers:
+The **Contact Me** page provides all the ways to reach out, I'd love to connect!
 
-* **Skills:** Coding languages am I proficient with.
-* **Experience:** My professional roles and accomplishments.
-* **Mission:** What drives me in my work and personal life.
+* **Email:** Jeremy60572@gmail.com
+* **LinkedIn:** https://www.linkedin.com/in/jeremy-lin1
+* **GitHub:** https://github.com/Je-re-me
 
 ---
 
@@ -24,23 +24,14 @@ A deep dive into the work I'm most proud of. Each **project** description will i
 
 ---
 
-## 🎨 Hobbies
+## 👤 About
 
-This section shares my creative and recreational **hobbies**, which often inspire my professional work:
+Get to know the person behind the code (and the hobbies)! This section covers:
 
-* **Badminton** - I participate in provincial tournaments and coaching on a school team.
-* **Video Games** - A good way to relax and have a good time with friends.
-* **Drawing** - In my spare time, I love to make pencil drawings and digital art.
-
----
-
-## 📬 Contact Me
-
-I'd love to connect! The **Contact Me** page provides all the ways to reach out:
-
-* **Email:** Jeremy60572@gmail.com
-* **LinkedIn:** https://www.linkedin.com/in/jeremy-lin1
-* **GitHub:** https://github.com/Je-re-me
+* **Skills:** Coding languages am I proficient with.
+* **Experience:** My professional roles and accomplishments.
+* **Mission:** What drives me in my work and personal life.
+* **Hobbies** My hobbies and passions, which often inspire my professional work!
 
 ---
 
