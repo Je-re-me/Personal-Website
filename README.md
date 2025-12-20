@@ -35,6 +35,15 @@ Get to know the person behind the code (and the hobbies)! This section covers:
 
 ---
 
+## 📄 Resume
+
+A concise summary of my professional qualifications. This section allows for quick download and review of my accomplishments.
+
+* **Download PDF:** A direct link to download the complete resume file.
+* **Key Highlights:** A brief, bulleted list of my most impactful roles and achievements.
+
+---
+
 **This site is built using:** React
 
 **To view the website, visit:** [Website URL] (currently unfinished)
