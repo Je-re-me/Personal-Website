@@ -14,13 +14,17 @@ html {
 /* Navbar Styles */
 
 .navbar {
-    background-color: #212945;
+    background-color: #0B0E18;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     gap: 2rem;
     padding: 0 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid white;
 }
 
 .navbar ul {
@@ -28,7 +32,8 @@ html {
     margin: 0;
     list-style: none;
     display: flex;
-    gap: 2rem;
+    gap: 1.5rem;
+    align-items: center;
 }
 
 .navbar a {
@@ -38,24 +43,45 @@ html {
     display: flex;
     align-items: center;
     padding: .25rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar li {
+    display: flex;
+    border-radius: 15px;
+    border: 1.5px solid #ffffff;
+    background-color: #313D68;
+    align-items: center;
+    height: 60%;
+    padding: .5rem;
+    transition: transform 200ms;
 }
 
 .navbar li:hover {
-    background-color: #777;
+    background-color: #41518B;
+    transform: scale(1.1);
 }
 
 .logo {
     height: 70px;
+    transition: transform 200ms;
 }
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+
 
 /* -------------------------------------------- */
 /* Page Styles */
+
 .page {
     color: white;
-    background-color: #313D68;
+    background-color: #0B0E18;
 }
 
 .page section {
     min-height: 100vh;
-    padding: 2rem;
+    padding: 4.5rem;
 }
