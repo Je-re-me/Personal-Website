@@ -17,6 +17,7 @@ export default function Page() {
       <section id="projects">
         <h1>Projects</h1>
         <p>My projects will be displayed here...</p>
+        <img src="/Birdie.png" alt="Birdie Icon" className="picture"></img>
       </section>
 
       <section id="about">
