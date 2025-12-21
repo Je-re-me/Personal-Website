@@ -1,9 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 html {
@@ -71,8 +76,6 @@ html {
     transform: scale(1.1);
 }
 
-
-
 /* -------------------------------------------- */
 /* Page Styles */
 
@@ -84,4 +87,15 @@ html {
 .page section {
     min-height: 100vh;
     padding: 4.5rem;
+}
+
+.page h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.page p {
+    font-size: 1.125rem;
+    line-height: 1.75;
 }
