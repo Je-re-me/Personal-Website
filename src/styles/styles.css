@@ -57,7 +57,7 @@ html {
 .navbar li {
     display: flex;
     border-radius: 15px;
-    border: 1.5px solid #ffffff;
+    border: 1px solid #ffffff;
     background-color: #313D68;
     align-items: center;
     height: 60%;
