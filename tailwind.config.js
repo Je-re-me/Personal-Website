@@ -6,15 +6,15 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        'float': 'float 1s ease-in-out infinite',
+        'float': 'float 1.5s ease-in-out infinite',
       },
       keyframes: {
         'float': {
           '0%, 100%': { 
-            transform: 'translateY(0px)',
+            transform: 'scale(1)',
           },
           '50%': { 
-            transform: 'translateY(-5px)',
+            transform: 'scale(1.07)',
           },
         },
       },

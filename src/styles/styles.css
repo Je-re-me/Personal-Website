@@ -67,16 +67,11 @@ html {
 
 .navbar li:hover {
     background-color: #41518B;
-    transform: scale(1.1);
+    transform: scale(1.07);
 }
 
 .logo {
     height: 60px;
-    transition: transform 200ms;
-}
-
-.logo:hover {
-    transform: scale(1.1);
 }
 
 /* -------------------------------------------- */
