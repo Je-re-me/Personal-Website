@@ -46,7 +46,7 @@ const ScrollFloat = ({
       scaleY: 1,
       scaleX: 1,
       stagger: stagger,
-      delay: 1.5
+      delay: 0.3
     });
   }, [animationDuration, ease, stagger]);
 
