@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "../styles/styles.css";
 import CircularText from '../components/CircularText.jsx';
 import ScrollFloat from '../components/ScrollFloat.jsx'
@@ -20,7 +20,7 @@ export default function Page() {
             </h1>
             <div style={{ width: '100%', height: '2px', backgroundColor: 'white', margin: '0.5rem 0' }}></div>
             <ScrollFloat
-              animationDuration={1.7}
+              animationDuration={2}
               ease='back.inOut(1.5)'
               stagger={0.05}
               containerClassName="text-center"
