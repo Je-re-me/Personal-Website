@@ -35,7 +35,6 @@ html {
     align-items: stretch;
     gap: 2rem;
     padding: 0 1rem;
-    padding-bottom: 0.2rem;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -82,9 +81,15 @@ html {
 }
 
 .page h1 {
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: bold;
     margin-bottom: 1rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.page h2 {
+    text-align: center;
 }
 
 .page p {
@@ -93,14 +98,14 @@ html {
 }
 
 .page section {
-    min-height: 80vh; /* temporary */
+    padding: 1rem 2rem;
     scroll-margin-top: 80px;
 }
 
 
 /* Overrides for specific hrefs */
-#home {
-    /* none currently */
+#contact {
+    scroll-margin-top: 40px;
 }
 
 #contact {
