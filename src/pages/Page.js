@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import "../styles/styles.css";
 import CircularText from '../components/CircularText.jsx';
 import ScrollFloat from '../components/ScrollFloat.jsx'
+import ScrollFloatUp from '../components/ScrollFloatUp.jsx'
 
 export default function Page() {
   return (
@@ -15,7 +16,7 @@ export default function Page() {
             className="circular-text"
           />
           <div className="absolute top-1/2 left-1/2 pointer-events-none" style={{ transform: 'translate(-50%, -40%)' }}>
-            <ScrollFloat
+            <ScrollFloatUp
               animationDuration={1.5}
               ease='back.inOut(1.5)'
               stagger={0.03}
@@ -25,7 +26,7 @@ export default function Page() {
               style={{ fontSize: '6rem', letterSpacing: '0.05rem', fontWeight: 400, lineHeight: 0.9, whiteSpace: 'nowrap' }}
             >
               JEREMY
-            </ScrollFloat>
+            </ScrollFloatUp>
             <div style={{ width: '100%', height: '2px', backgroundColor: 'white', margin: '0.5rem 0' }}></div>
             <ScrollFloat
               animationDuration={2}
