@@ -13,7 +13,7 @@ export default function Page() {
         <div className="relative inline-block">
           <CircularText
             text="2ND YEAR CS @ UBC * ASPIRING DEVELOPER * FULLSTACK * CYBERSECURITY * "
-            onHover="slowDown"
+            onHover="speedUp"
             spinDuration={25}
             className="circular-text"
           />
