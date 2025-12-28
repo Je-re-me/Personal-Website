@@ -3,6 +3,8 @@ import "../styles/styles.css";
 import CircularText from '../components/CircularText.jsx';
 import ScrollFloat from '../components/ScrollFloat.jsx'
 import ScrollFloatUp from '../components/ScrollFloatUp.jsx'
+import ContactButtons from '../components/ContactButtons.js';
+import TextType from '../components/TextType.jsx';
 
 export default function Page() {
   return (
@@ -44,7 +46,16 @@ export default function Page() {
       </section>
 
       <section id="contact">
-        <h1 className="text-white text-center">MEAT MEAT MEAT MEAT</h1>
+        <ContactButtons />
+        <div style={{ alignItems: 'center', justifyContent: 'center', display: 'flex', fontSize: '3.5rem'}}>
+          <TextType 
+          text={["Let’s connect!", "Reach out anytime!", "Thanks for visiting!"]}
+          typingSpeed={100}
+          pauseDuration={2500}
+          showCursor={true}
+          cursorCharacter="|"
+        />
+        </div>
       </section>
 
       <section id="projects">

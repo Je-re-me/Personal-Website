@@ -12,7 +12,7 @@ export default function Navbar() {
       <li>
         <StarBorder
           as="a"
-          href="#contact"
+          href="#home"
           color="#7484BE"
           speed="5s"
           className="block"
