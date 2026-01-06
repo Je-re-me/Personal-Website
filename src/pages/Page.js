@@ -5,6 +5,7 @@ import ScrollFloat from '../components/ScrollFloat.jsx'
 import ScrollFloatUp from '../components/ScrollFloatUp.jsx'
 import ContactButtons from '../components/ContactButtons.js';
 import TextType from '../components/TextType.jsx';
+import AboutMe from '../components/AboutMe.js';
 
 export default function Page() {
   return (
@@ -61,12 +62,11 @@ export default function Page() {
       <section id="projects">
         <h1>Projects</h1>
         <p>My projects will be displayed here...</p>
-        <img src="/Birdie.png" alt="Birdie Icon" className="picture"></img>
       </section>
 
       <section id="about">
-        <h1>About</h1>
-        <p>Information about me goes here...</p>
+        <AboutMe />
+        <img src="/Birdie.png" alt="Birdie Icon" className="picture"></img>
       </section>
 
       <section id="resume">

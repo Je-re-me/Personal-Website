@@ -104,10 +104,10 @@ html {
 
 
 /* Overrides for specific hrefs */
-#contact {
+#projects, #about, #resume {
     scroll-margin-top: 40px;
 }
 
-#contact {
-    scroll-margin-top: 100px;
+#resume {
+    min-height: 60rem; /* !!! temp */
 }

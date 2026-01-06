@@ -1,11 +1,11 @@
 import React from 'react';
 
-const StarBorder = ({
+const AboutBorder = ({
   as: Component = 'button',
   className = '',
   color = 'white',
-  speed = '7s',
-  thickness = 2,
+  speed = 's',
+  thickness = 4,
   children,
   ...rest
 }) => {
@@ -37,4 +37,4 @@ const StarBorder = ({
   );
 };
 
-export default StarBorder;
+export default AboutBorder;
