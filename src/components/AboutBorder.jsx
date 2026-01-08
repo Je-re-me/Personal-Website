@@ -3,7 +3,7 @@ import React from 'react';
 const AboutBorder = ({
   as: Component = 'button',
   className = '',
-  color = 'white',
+  color = 'cyan',
   speed = 's',
   thickness = 4,
   children,
