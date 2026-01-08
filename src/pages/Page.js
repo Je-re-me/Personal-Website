@@ -5,7 +5,7 @@ import ScrollFloat from '../components/ScrollFloat.jsx'
 import ScrollFloatUp from '../components/ScrollFloatUp.jsx'
 import ContactButtons from '../components/ContactButtons.js';
 import TextType from '../components/TextType.jsx';
-import AboutMe from '../components/AboutMe.js';
+import AboutMe from '../components/AboutMe.jsx';
 
 export default function Page() {
   return (
@@ -16,7 +16,7 @@ export default function Page() {
             text="2ND YEAR CS @ UBC * ASPIRING DEVELOPER * FULLSTACK * CYBERSECURITY * "
             onHover="speedUp"
             spinDuration={25}
-            className="circular-text"
+            className="circular-text text-weight-700"
           />
           <div className="absolute top-1/2 left-1/2 pointer-events-none" style={{ transform: 'translate(-50%, -40%)' }}>
             <ScrollFloatUp
@@ -26,11 +26,11 @@ export default function Page() {
               containerClassName="text-center"
               containerStyle={{ margin: 0 }}
               textClassName="text-white"
-              style={{ fontSize: '6rem', letterSpacing: '0.05rem', fontWeight: 400, lineHeight: 0.9, whiteSpace: 'nowrap' }}
+              style={{ fontSize: '6rem', letterSpacing: '0.05rem', fontWeight: 500, lineHeight: 0.9, whiteSpace: 'nowrap'}}
             >
               JEREMY
             </ScrollFloatUp>
-            <div style={{ width: '100%', height: '2px', backgroundColor: 'white', margin: '0.5rem 0' }}></div>
+            <div style={{ width: '100%', height: '2px', backgroundColor: 'white', margin: '0.6rem 0' }}></div>
             <ScrollFloat
               animationDuration={2}
               ease='back.inOut(1.5)'
@@ -38,7 +38,7 @@ export default function Page() {
               containerClassName="text-center"
               containerStyle={{ margin: 0 }}
               textClassName="text-white"
-              style={{ fontSize: '6rem', letterSpacing: '0.05rem', fontWeight: 400, lineHeight: 0.9 }}
+              style={{ fontSize: '6rem', letterSpacing: '0.05rem', fontWeight: 500, lineHeight: 0.9 }}
             >
               LIN
             </ScrollFloat>
@@ -55,23 +55,19 @@ export default function Page() {
           pauseDuration={2500}
           showCursor={true}
           cursorCharacter="|"
+          className="font-['Poppins'] font-weight-300"
         />
         </div>
       </section>
 
       <section id="projects">
-        <h1>Projects</h1>
-        <p>My projects will be displayed here...</p>
       </section>
 
       <section id="about">
         <AboutMe />
-        <img src="/Birdie.png" alt="Birdie Icon" className="picture"></img>
       </section>
 
       <section id="resume">
-        <h1>Resume</h1>
-        <p>My resume details go here...</p>
       </section>
     </div>
   );
