@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import StarBorder from './StarBorder'
 import "../styles/styles.css";
 
@@ -23,23 +23,23 @@ export default function Navbar() {
       <li>
         <StarBorder
           as="a"
-          href="#projects"
-          color="#7484BE"
-          speed="5s"
-          className="block"
-        >
-          Projects
-        </StarBorder>
-      </li>
-      <li>
-        <StarBorder
-          as="a"
           href="#about"
           color="#7484BE"
           speed="5s"
           className="block"
         >
           About
+        </StarBorder>
+      </li>
+      <li>
+        <StarBorder
+          as="a"
+          href="#projects"
+          color="#7484BE"
+          speed="5s"
+          className="block"
+        >
+          Projects
         </StarBorder>
       </li>
       <li>

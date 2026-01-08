@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import "../styles/styles.css";
 import CircularText from '../components/CircularText.jsx';
 import ScrollFloat from '../components/ScrollFloat.jsx'
@@ -46,7 +46,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section id="contact">
+      <section id="contact" className='mb-60'>
         <ContactButtons />
         <div style={{ alignItems: 'center', justifyContent: 'center', display: 'flex', fontSize: '3.5rem'}}>
           <TextType 
@@ -60,11 +60,12 @@ export default function Page() {
         </div>
       </section>
 
-      <section id="projects">
+      <section id="about" className="mb-60">
+        <AboutMe />
       </section>
 
-      <section id="about">
-        <AboutMe />
+      <section id="projects">
+        <h1>meat</h1>
       </section>
 
       <section id="resume">
