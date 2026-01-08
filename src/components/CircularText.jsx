@@ -45,7 +45,7 @@ const CircularText = ({ text, spinDuration = 25, onHover = 'slowDown', className
         transitionConfig = getTransition(spinDuration * 2, start);
         break;
       case 'speedUp':
-        transitionConfig = getTransition(spinDuration / 6, start);
+        transitionConfig = getTransition(spinDuration / 4, start);
         break;
       case 'pause':
         transitionConfig = {
