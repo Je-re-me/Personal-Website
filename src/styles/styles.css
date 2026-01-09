@@ -185,7 +185,7 @@ img {
     display: flex;
     border-radius: 10px;
     border: 3px solid #212945;
-    box-shadow: rgba(85, 85, 85, 0.4) 10px 10px 20px, rgb(85, 85, 85, 0.4) 6px 6px 6px;
+    box-shadow: #7484BE 0px 1px 10px, #7484BE 0px 3px 6px;
     background-color: #101423;
     margin-bottom: 75vh;
 }
