@@ -32,7 +32,7 @@ export default function AboutMe() {
                         </FadeInText>
                         </div>
 
-                        <FadeInText delay={0.7} duration={3} direction="left">
+                        <FadeInText delay={0.1} duration={2} direction="left">
                             <p className="bg-gradient-to-r from-white to-blue-300 bg-clip-text text-transparent font-['Quicksand'] text-lg"> 
                                 I'm currently a 2nd-year Computer Science student at UBC, and I'm really passionate about the creative and defensive aspects of technology!
                                 Why CS? Truthfully, I'm still figuring that out, but I do know that I love building things and solving problems.
