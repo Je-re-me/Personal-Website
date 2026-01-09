@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@gsap/react": "^2.1.2",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.1",
@@ -10,6 +11,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "gsap": "^3.14.2",
+    "lenis": "^1.3.17",
     "lucide-react": "^0.562.0",
     "motion": "^12.24.10",
     "react": "^19.2.3",

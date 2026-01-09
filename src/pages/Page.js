@@ -1,11 +1,13 @@
 import React from 'react';
 import "../styles/styles.css";
+
 import CircularText from '../components/CircularText.jsx';
 import ScrollFloat from '../components/ScrollFloat.jsx'
 import ScrollFloatUp from '../components/ScrollFloatUp.jsx'
 import ContactButtons from '../components/ContactButtons.js';
 import TextType from '../components/TextType.jsx';
 import AboutMe from '../components/AboutMe.jsx';
+import StackedCards from '../components/StackedCards.jsx';
 
 export default function Page() {
   return (
@@ -65,7 +67,7 @@ export default function Page() {
       </section>
 
       <section id="projects">
-        <h1>meat</h1>
+        <StackedCards />
       </section>
 
       <section id="resume">
