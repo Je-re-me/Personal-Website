@@ -112,20 +112,17 @@ html {
 
 #about {
     scroll-margin-top: 230px;
-}
-
-#resume {
-    min-height: 60rem; /* !!! temp */
+    margin-bottom: 120px;
 }
 
 /* -------------------------------------------- */
 /* Project Styles */
 
 .card-content h1 {
-    font-family: "Playpen Sans Deva", cursive;
+    font-family: "Poppins", cursive;
     font-size: clamp(1.8rem, 5vw, 3.5rem);
     font-weight: 300;
-    color:#0B0E18;
+    color:#ffffff;
 }
 
 .card-content p {
@@ -134,7 +131,7 @@ html {
     line-height: 1.6;
     width: 80%;
     margin-top: 15px;
-    color:#0B0E18;
+    color:#ffffff;
 }
 
 img {
@@ -162,12 +159,14 @@ img {
     will-change: transform;
 }
 
-.spacer, .container {
+.spacer {
     width: 100%;
-    min-height: 100vh;
+    min-height: 5vh;
 }
 
 .container {
+    width: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -185,8 +184,8 @@ img {
     height: 75vh;
     display: flex;
     border-radius: 10px;
-    box-shadow: rgba(255, 255, 255, 0.40) 0px 10px 20px, rgb(255, 255, 255, 0.4) 0px 6px 6px;
-    background-color: #f2f2f2;
+    box-shadow: rgba(85, 85, 85, 0.4) 10px 10px 20px, rgb(85, 85, 85, 0.4) 6px 6px 6px;
+    background-color: #101423;
     margin-bottom: 75vh;
 }
 

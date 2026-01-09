@@ -11,18 +11,22 @@ gsap.registerPlugin(useGSAP,ScrollTrigger);
 const cardsData = [
     {
         title: "Octopod",
-        description: "A full-stack web application that makes learning easy",
+        description: `I designed and built the entire website framework and code for OctoPod using React.js and CSS. My main focus was creating a clean user interface with a simple structure so anyone could use it.
+                        OctoPod helps take the guesswork out of studying by generating custom practice questions directly from your notes. It gives you feedback on your performance, making it easier to see exactly where and what you need to review more; your studying is much more effective! I even included an integrated AI chatbot tutor to make the learning process interactive.`,
         img: "/Octopod.png",
         link: "https://www.youtube.com/watch?v=JcSUMnwP7is"
     },
     {
-        title: "Personal Website",
-        description: "My personal website built with React, Tailwind CSS, and GSAP",
+        title: "My Website",
+        description: `I had a great time building the front-end for this project using React.js! I chose Tailwind CSS to handle the styling, which made it easy for me to create a cleaner look that works perfectly on phones and desktops alike.
+                        My goal was to create a smooth experience for users, so I focused on structuring the code using reusable components. This keeps the application organized, fast, and easy to update later on. 
+                        My website really shows my interest and passion for building high-quality front-end experiences!`,
         img: "/Website.png"
     },
     {
         title: "4x4 Sudoku",   
-        description: "A simple 4x4 Sudoku game built with Java and JSON library",
+        description: `I developed a complete, self-generating Sudoku game using Java. A key feature is its ability to generate puzzles where players can customize the difficulty by choosing the number of blank spaces in the puzzle.
+                        To ensure a smooth experience, I used the JSON library to automatically save player progress and puzzle history. This allows users to easily track their past attempts and even load unfinished games after closing and reopening the application. I also designed multiple interface windows to make the game intuitive and user-friendly.`,
         img: "/Sudoku.png",
     }
 ];
@@ -52,7 +56,7 @@ export default function StackedCards() {
                 ease: "none",
                 scrollTrigger: {
                     trigger: card,
-                    start: "top " + (15 + 35 * i),
+                    start: "top " + (120 + 25 * i),
                     end: "bottom bottom",
                     endTrigger: ".container",
                     scrub: true,
@@ -64,7 +68,7 @@ export default function StackedCards() {
 
             ScrollTrigger.create({
                 trigger: card,
-                start: "bottom bottom",
+                start: "top 70%",
                 once: true,
                 onEnter: () => {
                     const tl = gsap.timeline();
@@ -109,7 +113,7 @@ export default function StackedCards() {
                         <div className="card" key={index}>
                             <div className="card-content">
                                 <h1>{card.title}</h1>
-                                <p>{card.description}</p>
+                                <p style={{ whiteSpace: 'pre-line' }}>{card.description}</p>
                             </div>
                             <div className="img-wrapper">
                                 <img src={card.img} alt={card.title} />

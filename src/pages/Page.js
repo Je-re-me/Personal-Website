@@ -67,6 +67,7 @@ export default function Page() {
       </section>
 
       <section id="projects">
+        <h1 className="font-['Poppins'] font-weight-300"> My Projects</h1>
         <StackedCards />
       </section>
 
