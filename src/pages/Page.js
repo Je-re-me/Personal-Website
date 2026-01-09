@@ -62,7 +62,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section id="about" className="mb-60">
+      <section id="about">
         <AboutMe />
       </section>
 
