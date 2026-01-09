@@ -11,10 +11,10 @@ gsap.registerPlugin(useGSAP,ScrollTrigger);
 const cardsData = [
     {
         title: "Octopod",
-        description: `I designed and built the entire website framework and code for OctoPod using React.js and CSS. My main focus was creating a clean user interface with a simple structure so anyone could use it.
-                        OctoPod helps take the guesswork out of studying by generating custom practice questions directly from your notes. It gives you feedback on your performance, making it easier to see exactly where and what you need to review more; your studying is much more effective! I even included an integrated AI chatbot tutor to make the learning process interactive.`,
+        description: `I designed and built the entire website using React.js. My main focus was creating a clean user interface with a simple structure so anyone could use it.
+                        OctoPod helps take the guesswork out of studying by generating custom practice questions directly from your notes. It gives you feedback on your performance, easily showing exactly what you need to review more! I even included an integrated AI chatbot tutor to make the learning process interactive.
+                        Search Octopod Introduction on YouTube to see how it works!`,
         img: "/Octopod.png",
-        link: "https://www.youtube.com/watch?v=JcSUMnwP7is"
     },
     {
         title: "My Website",
