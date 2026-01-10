@@ -12,8 +12,8 @@ const cardsData = [
     {
         title: "Octopod",
         language: "React.js | Tailwind CSS",
-        description: `I designed and built the entire website using React.js. My main focus was creating a clean user interface with a simple structure so anyone could use it.
-                        OctoPod helps take the guesswork out of studying by generating custom practice questions directly from your notes. It gives you feedback on your performance, easily showing exactly what you need to review more! I even included an integrated AI chatbot tutor to make the learning process interactive.
+        description: `I designed and built the entire framework using React.js. OctoPod helps take the guesswork out of studying by generating custom practice questions directly from your notes. 
+                        This website gives you feedback on your performance, easily showing exactly what you need to review more! It includes an integrated AI chatbot tutor to make the learning process interactive.
                         Search Octopod Introduction on YouTube to see how it works!`,
         img: "/Octopod.png",
     },
