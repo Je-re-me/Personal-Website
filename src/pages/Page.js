@@ -71,8 +71,7 @@ export default function Page() {
         <StackedCards />
       </section>
 
-      <section id="resume">
-      </section>
+      <h1 className="font-['Poppins'] font-weight-300" style= {{ fontSize: '1.5rem'}}> Last Updated January 9, 2026</h1>
     </div>
   );
 }
