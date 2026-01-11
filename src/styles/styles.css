@@ -319,7 +319,7 @@ img {
     .flex.flex-row.items-center img {
         width: 12rem !important;
         height: 12rem !important;
-        object-fit: contain !important;
+        flex: auto;
     }
 
     .flex.flex-row.items-center h1 {
@@ -377,7 +377,7 @@ img {
     .flex.flex-row.items-center img {
         width: 10rem !important;
         height: 10rem !important;
-        object-fit: contain !important;
+        flex: auto;
     }
 
     .flex.flex-row.items-center h1 {
