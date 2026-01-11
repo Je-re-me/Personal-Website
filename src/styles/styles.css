@@ -293,6 +293,14 @@ img {
         padding: 0 0.5rem;
     }
 
+    .navbar .logo {
+        display: none;
+    }
+
+    .navbar ul li:last-child {
+        display: none;
+    }
+
     .navbar ul {
         gap: 0.75rem;
     }
@@ -346,6 +354,14 @@ img {
 @media (max-width: 480px) {
     .circular-text {
         scale: 1.5;
+    }
+
+    .navbar .logo {
+        display: none;
+    }
+
+    .navbar ul li:last-child {
+        display: none;
     }
 
     .navbar a {
