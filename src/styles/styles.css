@@ -262,10 +262,6 @@ img {
         height: 60%;
         border-radius: 10px 10px 0 0;
     }
-
-    .img-wrapper img {
-        object-fit: contain !important;
-    }
 }
 @media (max-width: 480px) {
     .img-wrapper {
@@ -282,10 +278,6 @@ img {
 
     .card-content p {
         display: none;
-    }
-
-    .img-wrapper img {
-        object-fit: contain !important;
     }
 }
 
