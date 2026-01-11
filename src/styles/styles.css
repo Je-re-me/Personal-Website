@@ -332,6 +332,15 @@ img {
     #home .text-white {
         font-size: 4rem !important;
     }
+
+    /* Contact Section - TextType */
+    #contact > div[style] {
+        font-size: 2rem !important;
+    }
+
+    #contact .font-\[\"Poppins\"\] {
+        font-size: 2rem !important;
+    }
 }
 
 @media (max-width: 480px) {
@@ -370,5 +379,13 @@ img {
     #home .text-white {
         font-size: 3rem !important;
     }
-}
 
+    /* Contact Section - TextType */
+    #contact > div[style] {
+        font-size: 1.5rem !important;
+    }
+
+    #contact .font-\[\"Poppins\"\] {
+        font-size: 1.5rem !important;
+    }
+}
