@@ -286,7 +286,7 @@ img {
 
 @media (max-width: 768px) {
     .circular-text {
-        scale: 0.7;
+        scale: 1.5;
     }
 
     .navbar {
@@ -336,7 +336,7 @@ img {
 
 @media (max-width: 480px) {
     .circular-text {
-        scale: 0.6;
+        scale: 1.5;
     }
 
     .navbar a {
