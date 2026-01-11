@@ -257,6 +257,7 @@ img {
 @media (max-width: 580px) {
     .card {
         flex-direction: column-reverse;
+        margin-left: 5vh;
     }
 
     .card-content, .img-wrapper {
