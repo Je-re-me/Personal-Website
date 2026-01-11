@@ -195,7 +195,6 @@ img {
     box-shadow: #7484BE 0px 1px 10px, #7484BE 0px 3px 6px;
     background-color: #101423;
     margin-bottom: 75vh;
-    margin-left:12vh;
 }
 
 .card-content, .img-wrapper {
@@ -212,7 +211,41 @@ img {
     padding: 10px 20px;
 }
 
+@media (max-width: 4000px) {
+    .card {
+        margin-left:45vh;
+    }
+
+    .stacked-cards {
+        width: clamp(85%, 4vw, 90%);
+    }
+}
+
+@media (max-width: 2600px) {
+    .card {
+        margin-left:25vh;
+    }
+
+    .stacked-cards {
+        width: clamp(85%, 4vw, 90%);
+    }
+}
+
+@media (max-width: 2000px) {
+    .card {
+        margin-left:20vh;
+    }
+
+    .stacked-cards {
+        width: clamp(85%, 4vw, 90%);
+    }
+}
+
 @media (max-width: 1200px) {
+    .card {
+        margin-left:14vh;
+    }
+
     .stacked-cards {
         width: clamp(85%, 4vw, 90%);
     }

@@ -11,6 +11,7 @@ export default function AboutMe() {
             className="custom-class"
             color="cyan"
             speed="5s"
+            style={{ width: '90%' }}
             >
                 <div className="flex flex-row items-center gap-10 pl-10 pt-8 pb-8">
                     {/* Profile Picture */}
@@ -24,13 +25,12 @@ export default function AboutMe() {
 
                     {/* Text Content */}
                     <div className="flex-1 text-left">
-                        <div className="flex-1 text-left">
+
                         <FadeInText delay={0.5} duration={2} direction="right">
                             <h1 className="text-5xl font-extrabold mb-4 pb-3 bg-gradient-to-r from-white to-blue-300 bg-clip-text text-transparent font-['Poppins']">
                                 Hi! I'm Jeremy!
                             </h1>
                         </FadeInText>
-                        </div>
 
                         <FadeInText delay={0.1} duration={2} direction="left">
                             <p className="bg-gradient-to-r from-white to-blue-300 bg-clip-text text-transparent font-['Quicksand'] text-lg"> 
