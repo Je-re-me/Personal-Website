@@ -59,7 +59,7 @@ export default function StackedCards() {
                 ease: "none",
                 scrollTrigger: {
                     trigger: card,
-                    start: "top " + (80 + 35 * i),
+                    start: "top " + (50 + 35 * i),
                     end: "bottom bottom",
                     endTrigger: ".container",
                     scrub: true,
