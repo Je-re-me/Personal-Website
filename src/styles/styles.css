@@ -45,8 +45,11 @@ html {
     align-items: stretch;
     gap: 2rem;
     padding: 0 1rem;
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
     z-index: 1000;
     border-bottom: 1px solid white;
 }
@@ -114,8 +117,12 @@ html {
 
 
 /* Overrides for specific hrefs */
-#projects{
-    scroll-margin-top: 40px;
+#home {
+    margin-top: 80px;
+}
+
+#projects {
+    scroll-margin-top: 30px;
 }
 
 #about {
