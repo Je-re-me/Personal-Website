@@ -292,10 +292,6 @@ img {
 /* Mobile Responsive Fixes */
 
 @media (max-width: 768px) {
-    .circular-text {
-        scale: 5;
-    }
-
     .navbar {
         padding: 0 0.5rem;
     }
@@ -360,10 +356,6 @@ img {
 }
 
 @media (max-width: 480px) {
-    .circular-text {
-        scale: 2;
-    }
-
     .navbar .logo {
         display: none;
     }

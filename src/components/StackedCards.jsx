@@ -16,6 +16,7 @@ const cardsData = [
                         This website gives you feedback on your performance, easily showing exactly what you need to review more! It includes an integrated AI chatbot tutor to make the learning process interactive.
                         Search Octopod Introduction on YouTube to see how it works!`,
         img: "/Octopod.png",
+        link: "https://github.com/Je-re-me/OctoPod"
     },
     {
         title: "My Website",
@@ -23,7 +24,8 @@ const cardsData = [
         description: `I had a great time building the front-end for this project using React.js! I chose Tailwind CSS to handle the styling, which made it easy for me to create a cleaner look.
                         My goal was to create a smooth experience for users, so I focused on structuring the code using reusable components. This keeps the application organized, fast, and easy to update later on. 
                         My website really shows my interest and passion for building high-quality front-end experiences!`,
-        img: "/Website.png"
+        img: "/Website.png",
+        link: "https://github.com/Je-re-me/Personal-Website"
     },
     {
         title: "4x4 Sudoku",
@@ -31,6 +33,7 @@ const cardsData = [
         description: `I developed a complete, self-generating Sudoku game using Java. A key feature is its ability to generate puzzles where players can customize the difficulty by choosing the number of blank spaces in the puzzle.
                         To ensure a smooth experience, I used the JSON library to automatically save player progress and puzzle history. This allows users to easily track their past attempts and even load unfinished games after closing and reopening the application.`,
         img: "/Sudoku.png",
+        link: "https://github.com/Je-re-me/SudokuGame"
     }
 ];
 
@@ -113,7 +116,14 @@ export default function StackedCards() {
             <div className="container">
                 <div className="stacked-cards">
                     {cardsData.map((card, index) => (
-                        <div className="card" key={index}>
+                        <a
+                            className="card"
+                            key={index}
+                            href={card.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ textDecoration: 'none', color: 'inherit' }}
+                        >
                             <div className="card-content">
                                 <h1>{card.title}</h1>
                                 <p style={{ whiteSpace: 'pre-line', color: '#7484BE' }}>{card.language}</p>
@@ -122,7 +132,7 @@ export default function StackedCards() {
                             <div className="img-wrapper">
                                 <img src={card.img} alt={card.title} />
                             </div>
-                        </div>
+                        </a>
                     ))}
                 </div>
             </div>
