@@ -46,4 +46,4 @@ A concise summary of my professional qualifications. This section allows for qui
 
 **This site is built using:** React
 
-**To view the website, visit:** [Website URL] (currently unfinished)
+**To view the website, visit:** jeremy-lin.vercel.app
