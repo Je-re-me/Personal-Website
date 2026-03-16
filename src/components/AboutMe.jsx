@@ -16,11 +16,16 @@ export default function AboutMe() {
                 <div className="flex flex-row items-center gap-10 pl-10 pt-8 pb-8">
                     {/* Profile Picture */}
                     <FadeInText delay={0.3} duration={2} direction="left">
-                        <img 
-                            src="/ProfilePic.png" 
-                            alt="Profile" 
-                            className="w-64 h-64 rounded-full object-cover border-4 border-cyan-900 shadow-lg"
-                        />
+                        <picture>
+                            <source srcSet="/ProfilePic.webp" type="image/webp" />
+                            <img 
+                                src="/ProfilePic.png" 
+                                alt="Profile" 
+                                width={256}
+                                height={256}
+                                className="w-64 h-64 rounded-full object-cover border-4 border-cyan-900 shadow-lg"
+                            />
+                        </picture>
                     </FadeInText>
 
                     {/* Text Content */}
