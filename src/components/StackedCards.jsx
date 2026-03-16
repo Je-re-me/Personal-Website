@@ -19,21 +19,20 @@ const cardsData = [
         link: "https://github.com/Je-re-me/OctoPod"
     },
     {
-        title: "My Website",
-        language: "React.js | Tailwind CSS | GSAP | Framer Motion",
-        description: `I had a great time building the front-end for this project using React.js! I chose Tailwind CSS to handle the styling, which made it easy for me to create a cleaner look.
-                        My goal was to create a smooth experience for users, so I focused on structuring the code using reusable components. This keeps the application organized, fast, and easy to update later on. 
-                        My website really shows my interest and passion for building high-quality front-end experiences!`,
-        img: "/Website.png",
-        link: "https://github.com/Je-re-me/Personal-Website"
-    },
-    {
         title: "4x4 Sudoku",
         language: "Java | JSON",   
         description: `I developed a complete, self-generating Sudoku game using Java. A key feature is its ability to generate puzzles where players can customize the difficulty by choosing the number of blank spaces in the puzzle.
                         To ensure a smooth experience, I used the JSON library to automatically save player progress and puzzle history. This allows users to easily track their past attempts and even load unfinished games after closing and reopening the application.`,
         img: "/Sudoku.png",
         link: "https://github.com/Je-re-me/SudokuGame"
+    },
+    {
+        title: "Airbnb Rating Predictor",
+        language: "Python | Scikit-learn | Pandas",
+        description: `I built a machine learning model to predict the amount of ratings per month a Airbnb listing a post will get based on various features such as location, price, and amenities.
+                        I used Python with libraries like Scikit-learn and Pandas for data processing and model training.`,
+        img: "/Airbnb.png",
+        link: "https://github.com/Je-re-me/Airbnb_Price_Prediction_NYC"
     }
 ];
 

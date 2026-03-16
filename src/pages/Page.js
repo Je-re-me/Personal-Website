@@ -15,7 +15,7 @@ export default function Page() {
       <section id="home" className="flex items-center justify-center">
         <div className="relative inline-block">
           <CircularText
-            text="2ND YEAR CS @ UBC * ASPIRING DEVELOPER * FULLSTACK * CYBERSECURITY * "
+            text="2ND YEAR CS @ UBC * ASPIRING DEVELOPER * FULLSTACK * MACHINE LEARNING * "
             onHover="speedUp"
             spinDuration={25}
             className="circular-text text-weight-700"
@@ -71,7 +71,7 @@ export default function Page() {
         <StackedCards />
       </section>
 
-      <h1 className="font-['Poppins'] font-weight-300" style= {{ fontSize: '1.5rem'}}> Last Updated January 9, 2026</h1>
+      <h1 className="font-['Poppins'] font-weight-300" style= {{ fontSize: '1.5rem'}}> Last Updated March 15, 2026</h1>
     </div>
   );
 }
