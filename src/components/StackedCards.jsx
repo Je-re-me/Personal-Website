@@ -15,7 +15,8 @@ const cardsData = [
         description: `I designed and built the entire framework using React.js. OctoPod helps take the guesswork out of studying by generating custom practice questions directly from your notes. 
                         This website gives you feedback on your performance, easily showing exactly what you need to review more! It includes an integrated AI chatbot tutor to make the learning process interactive.
                         Search Octopod Introduction on YouTube to see how it works!`,
-        img: "/Octopod.png",
+        img: "/Octopod.webp",
+        imgFallback: "/Octopod.png",
         link: "https://github.com/Je-re-me/OctoPod"
     },
     {
@@ -23,7 +24,8 @@ const cardsData = [
         language: "Java | JSON",   
         description: `I developed a complete, self-generating Sudoku game using Java. A key feature is its ability to generate puzzles where players can customize the difficulty by choosing the number of blank spaces in the puzzle.
                         To ensure a smooth experience, I used the JSON library to automatically save player progress and puzzle history. This allows users to easily track their past attempts and even load unfinished games after closing and reopening the application.`,
-        img: "/Sudoku.png",
+        img: "/Sudoku.webp",
+        imgFallback: "/Sudoku.png",
         link: "https://github.com/Je-re-me/SudokuGame"
     },
     {
@@ -31,7 +33,8 @@ const cardsData = [
         language: "Python | Scikit-learn | Pandas",
         description: `I built a machine learning model to predict the amount of ratings per month a Airbnb listing a post will get based on various features such as location, price, and amenities.
                         I used Python with libraries like Scikit-learn and Pandas for data processing and model training.`,
-        img: "/Airbnb.png",
+        img: "/Airbnb.webp",
+        imgFallback: "/Airbnb.png",
         link: "https://github.com/Je-re-me/Airbnb_Price_Prediction_NYC"
     }
 ];
@@ -129,7 +132,10 @@ export default function StackedCards() {
                                 <p style={{ whiteSpace: 'pre-line'}}>{card.description}</p>
                             </div>
                             <div className="img-wrapper">
-                                <img src={card.img} alt={card.title} />
+                                <picture>
+                                    <source srcSet={card.img} type="image/webp" />
+                                    <img src={card.imgFallback} alt={card.title} loading="lazy" />
+                                </picture>
                             </div>
                         </a>
                     ))}
