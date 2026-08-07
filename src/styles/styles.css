@@ -20,7 +20,7 @@ body {
 html {
     scroll-behavior: smooth;
     background-color: #0B0E18;
-    background-image: url('../../public/Background.webp');
+    background-image: url('../../public/goodBackground.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
